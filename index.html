@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+
+<head>
+    <script src="javascript/validacao.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Delta | Soluções Automotivas</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/deltaLogo.png" alt="Logotipo Delta">
+    </header>
+    <main>
+        <form name="formulario" action="login.html" onsubmit="return validacaoForm()" method="post">
+            <div class="login">
+                <h1>Login</h1>
+                <p>
+                    <label for="user">Usuário</label>
+                    <input id="user" type="text" name="inputUser">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" name="inputSenha">
+                </p>
+            </div>
+            <div class="opcao">
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+                <p>
+                    <button type="reset">Cancelar</button>
+                </p>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
